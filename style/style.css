@@ -20,6 +20,7 @@
         max-width: 768px;
     }
 }
+
 @media screen and (max-width: 767px) {
     .conteiner {
         max-width: none;
@@ -36,12 +37,13 @@ img {
     font-style: normal;
     font-weight: 400;
 }
-.text{
+
+.text {
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 400;
-} 
-    
+}
+
 .label {
     font-family: 'Nunito Sans';
     font-style: normal;
@@ -65,9 +67,11 @@ img {
     background-color: white;
     color: #E3B873;
 }
+
 .btn:active {
     background-color: cadetblue;
 }
+
 input::placeholder {
     font-family: 'Nunito Sans';
     font-style: normal;
@@ -125,8 +129,7 @@ input::placeholder {
 }
 
 @media screen and (max-width: 767px) {
-    .header
-     {
+    .header {
         height: 57px;
     }
 }
@@ -140,7 +143,7 @@ input::placeholder {
 
 .header__logo-item,
 .footer__logo-item {
-     
+
     font-size: 11px;
     line-height: 15px;
     text-transform: uppercase;
@@ -150,8 +153,7 @@ input::placeholder {
 
 @media screen and (max-width: 767px) {
 
-    .header__list
-     {
+    .header__list {
         display: none;
     }
 }
@@ -166,7 +168,7 @@ input::placeholder {
 
 .header__link,
 .footer__link {
-     
+
     font-size: 11px;
     line-height: 15px;
     color: #FFFFFF;
@@ -190,8 +192,9 @@ input::placeholder {
         margin-right: 10px;
     }
 }
+
 .header__link.activ,
-.footer__link.activ{
+.footer__link.activ {
     color: #E3B873;
 }
 
@@ -229,8 +232,9 @@ input::placeholder {
     font-size: 11px;
     line-height: 15px;
     text-align: center;
-    text-transform: uppercase;   
+    text-transform: uppercase;
 }
+
 @media screen and (max-width: 1023px) {
 
     .header__button,
@@ -313,7 +317,7 @@ input::placeholder {
     font-size: 11px;
     line-height: 15px;
     text-align: center;
-    margin-right: 20px;     
+    margin-right: 20px;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
 }
 
@@ -324,7 +328,7 @@ input::placeholder {
 
     }
 }
- 
+
 .cap__button-two {
     width: 207px;
     height: 50px;
@@ -335,11 +339,13 @@ input::placeholder {
     background: transparent;
     border: 1px solid #FFFFFF;
 }
+
 @media screen and (max-width: 767px) {
     .cap__button-two {
         width: 100%;
     }
 }
+
 /*INFO*/
 
 .info {
@@ -347,11 +353,13 @@ input::placeholder {
     width: 100vw;
     height: 1075px;
 }
+
 @media screen and (max-width: 767px) {
     .info {
         height: auto;
     }
 }
+
 .info__conteiner {
     display: flex;
     justify-content: space-between;
@@ -362,10 +370,12 @@ input::placeholder {
         display: block;
     }
 }
+
 .info__content {
     padding-top: 176px;
     padding-left: 40px;
 }
+
 @media screen and (max-width:1299px) {
     .info__content {
         padding-top: 176px;
@@ -452,21 +462,24 @@ input::placeholder {
         position: relative;
     }
 }
+
 @media screen and (max-width: 767px) {
     .info__slayder {
-width: 100%;
-display: flex;
-justify-content: space-between;
-bottom: 50%;
-position: absolute;
-padding: 0 14px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        bottom: 50%;
+        position: absolute;
+        padding: 0 14px;
     }
 }
+
 @media screen and (max-width: 767px) {
-    .info__slayder-left {    
-    transform: rotate(180deg);
+    .info__slayder-left {
+        transform: rotate(180deg);
     }
 }
+
 @media screen and (max-width: 767px) {
     .info__image-mobile {
         width: 100%;
@@ -485,10 +498,11 @@ padding: 0 14px;
     text-transform: uppercase;
     color: #E3B873;
 }
+
 @media screen and (max-width: 767px) {
-    .info__item  {        
-font-size: 14px; 
-line-height: 19px;
+    .info__item {
+        font-size: 14px;
+        line-height: 19px;
     }
 }
 
@@ -519,8 +533,9 @@ line-height: 19px;
     transition: color .2s linear;
     padding-bottom: 6px;
 }
+
 @media screen and (max-width: 1023px) {
-    .info__link  {
+    .info__link {
         font-size: 10px;
     }
 }
@@ -558,6 +573,7 @@ line-height: 19px;
 .info__items {
     width: 50%;
 }
+
 .info__nav-vector {
     display: flex;
     justify-content: space-between;
@@ -602,6 +618,7 @@ line-height: 19px;
 .info__dot-activ {
     background-color: #FFFFFF;
 }
+
 /*CENTRAL*/
 
 @media screen and (max-width: 767px) {
@@ -685,10 +702,11 @@ line-height: 19px;
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
 @media screen and (max-width: 767px) {
 
     .central__image::before {
-        content: url(../svg/play.svg);   
+        content: url(../svg/play.svg);
     }
 }
 
@@ -803,7 +821,7 @@ line-height: 19px;
     line-height: 27px;
     text-align: center;
     text-transform: uppercase;
-     
+
 }
 
 @media screen and (max-width: 767px) {
@@ -854,23 +872,26 @@ line-height: 19px;
     text-transform: uppercase;
     color: #181818;
 }
+
 @media screen and (max-width: 767px) {
 
-    .gallery__titile-name  {
+    .gallery__titile-name {
         font-size: 22px;
-        line-height: 30px;   
+        line-height: 30px;
     }
 }
+
 .gallery__title {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 @media screen and (max-width: 767px) {
 
-    .gallery__title  {
+    .gallery__title {
 
-       margin-top: 60px;
+        margin-top: 60px;
     }
 }
 
@@ -980,9 +1001,9 @@ line-height: 19px;
     padding: 18px 16px;
     margin-top: -27px;
 }
- 
 
- /*FASADE*/
+
+/*FASADE*/
 
 .fasade {
 
@@ -1116,6 +1137,7 @@ line-height: 19px;
     width: 334px;
     margin-left: 25px;
 }
+
 /*DESIGN*/
 
 .design {
@@ -1133,7 +1155,7 @@ line-height: 19px;
         background: none;
         margin-bottom: 0;
         margin-top: -70px;
-       
+
     }
 }
 
@@ -1146,7 +1168,7 @@ line-height: 19px;
 @media screen and (max-width: 767px) {
     .design__content {
         display: block;
-        background:linear-gradient(white 70%, #181818 30%);
+        background: linear-gradient(white 70%, #181818 30%);
     }
 }
 
@@ -1175,13 +1197,15 @@ line-height: 19px;
         text-align: center;
     }
 }
+
 @media screen and (max-width: 767px) {
     .design__menu {
         display: none;
     }
 }
+
 .design__list {
-   
+
     font-size: 20px;
     line-height: 38px;
     color: #FFFFFF;
@@ -1189,42 +1213,49 @@ line-height: 19px;
     text-decoration: none;
     transition: color .2s linear;
 }
-.design__list:hover{
-    color: #E3B873;
-    border-bottom: 1px solid #E3B873;   
-}
-.design__list.activ{
+
+.design__list:hover {
     color: #E3B873;
     border-bottom: 1px solid #E3B873;
-} 
+}
+
+.design__list.activ {
+    color: #E3B873;
+    border-bottom: 1px solid #E3B873;
+}
+
 .design__foto {
     display: flex;
-   
+
 }
-.design__slayder{
+
+.design__slayder {
     display: none;
-} 
+}
+
 @media screen and (max-width: 767px) {
     .design__slayder {
-      display: block;
-      position: relative;
-      
-      width: 100%;
+        display: block;
+        position: relative;
+
+        width: 100%;
     }
 }
+
 @media screen and (max-width: 767px) {
     .design__slayder-svg {
-      display: flex;
-      justify-content: space-between;
-      width: 100%;
-      padding: 0 14px;
-      position: absolute;
-      bottom: 40%;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 14px;
+        position: absolute;
+        bottom: 40%;
     }
 }
+
 @media screen and (max-width: 767px) {
-    .design__slayder-left {    
-    transform: rotate(180deg);
+    .design__slayder-left {
+        transform: rotate(180deg);
     }
 }
 
@@ -1235,13 +1266,13 @@ line-height: 19px;
     }
 }
 
- 
+
 
 @media screen and (max-width: 767px) {
     .design__image-mobaile {
         display: block;
         width: 100%;
-       
+
     }
 }
 
@@ -1259,7 +1290,8 @@ line-height: 19px;
         display: none;
     }
 }
- /*CLIENTS*/
+
+/*CLIENTS*/
 
 .clients__name {
     display: flex;
@@ -1314,7 +1346,7 @@ line-height: 19px;
 }
 
 .clients__text {
-    
+
     font-size: 13px;
     line-height: 180%;
     margin: 15px 0 63px;
@@ -1356,6 +1388,7 @@ line-height: 19px;
     margin-left: 15px;
     color: #FFFFFF;
 }
+
 /*MAP*/
 
 .map__backraund-city {
@@ -1453,7 +1486,7 @@ line-height: 19px;
     border: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     background-color: transparent;
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
 
 @media screen and (max-width: 767px) {
@@ -1539,7 +1572,7 @@ line-height: 19px;
     .map__title-address {
         margin-top: 30px;
         font-size: 18px;
-    line-height: 25px;
+        line-height: 25px;
     }
 }
 
